@@ -1,0 +1,6 @@
+gradio==6.14.0
+huggingface_hub==1.7.1
+openai
+python-dotenv
+requests
+pypdf
