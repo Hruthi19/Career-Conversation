@@ -86,6 +86,9 @@ class Me:
                 self.linkedin += text
         with open("me/summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
+        
+        print("SUMMARY LENGTH:", len(self.summary), flush=True)
+        print("LINKEDIN LENGTH:", len(self.linkedin), flush=True)
 
 
     def handle_tool_call(self, tool_calls):
